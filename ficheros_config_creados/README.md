@@ -1,0 +1,1 @@
+Este código deberá ser modificado debidamente con las rutas de archivos correspondientes para que funcione, ya que ahora está en enfocado a una máquina con SO Windows específica.
