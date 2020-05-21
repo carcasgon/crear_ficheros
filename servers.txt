@@ -1,0 +1,2 @@
+server1,C:/Users/Carmen/Desktop/ELK/datos/jmx1,template1.txt
+server2,C:/Users/Carmen/Desktop/ELK/datos/jmx2,template2.txt

@@ -1,0 +1,19 @@
+input {
+    jmx {
+      path => "${path}"
+      polling_frequency => 60
+      type => "jmx"
+      nb_thread => 4
+	  add_field => { "server" => "${server}"}
+    }
+}
+
+
+
+output {
+  elasticsearch {
+    hosts => ["localhost:9200"]
+    index => "${index}"
+  }
+  stdout{codec => rubydebug}
+}
